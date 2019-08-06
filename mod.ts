@@ -96,32 +96,32 @@ export default class Struct extends Uint8Array {
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public bigInt64(n: string): Struct {
+  public bigInt64(n: number): Struct {
     return this.write('bigInt64', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public bigInt64LE(n: string): Struct {
+  public bigInt64LE(n: number): Struct {
     return this.write('bigInt64LE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public bigInt64BE(n: string): Struct {
+  public bigInt64BE(n: number): Struct {
     return this.write('bigInt64BE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public bigUint64(n: string): Struct {
+  public bigUint64(n: number): Struct {
     return this.write('bigUint64', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public bigUint64LE(n: string): Struct {
+  public bigUint64LE(n: number): Struct {
     return this.write('bigUint64LE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public bigUint64BE(n: string): Struct {
+  public bigUint64BE(n: number): Struct {
     return this.write('bigUint64BE', n);
   }
 
@@ -135,67 +135,67 @@ export default class Struct extends Uint8Array {
   // }
 
   /** Convenience method - Calls struct.write(...) */
-  public float32(n: string): Struct {
+  public float32(n: number): Struct {
     return this.write('float32', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public float32LE(n: string): Struct {
+  public float32LE(n: number): Struct {
     return this.write('float32LE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public float32BE(n: string): Struct {
+  public float32BE(n: number): Struct {
     return this.write('float32BE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public float64(n: string): Struct {
+  public float64(n: number): Struct {
     return this.write('float64', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public float64LE(n: string): Struct {
+  public float64LE(n: number): Struct {
     return this.write('float64LE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public float64BE(n: string): Struct {
+  public float64BE(n: number): Struct {
     return this.write('float64BE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public int8(n: string): Struct {
+  public int8(n: number): Struct {
     return this.write('int8', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public int16(n: string): Struct {
+  public int16(n: number): Struct {
     return this.write('int16', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public int16LE(n: string): Struct {
+  public int16LE(n: number): Struct {
     return this.write('int16LE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public int16BE(n: string): Struct {
+  public int16BE(n: number): Struct {
     return this.write('int16BE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public int32(n: string): Struct {
+  public int32(n: number): Struct {
     return this.write('int32', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public int32LE(n: string): Struct {
+  public int32LE(n: number): Struct {
     return this.write('int32LE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public int32BE(n: string): Struct {
+  public int32BE(n: number): Struct {
     return this.write('int32BE', n);
   }
 
@@ -268,37 +268,37 @@ export default class Struct extends Uint8Array {
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public uint8(n: string): Struct {
+  public uint8(n: number): Struct {
     return this.write('uint8', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public uint16(n: string): Struct {
+  public uint16(n: number): Struct {
     return this.write('uint16', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public uint16LE(n: string): Struct {
+  public uint16LE(n: number): Struct {
     return this.write('uint16LE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public uint16BE(n: string): Struct {
+  public uint16BE(n: number): Struct {
     return this.write('uint16BE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public uint32(n: string): Struct {
+  public uint32(n: number): Struct {
     return this.write('uint32', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public uint32LE(n: string): Struct {
+  public uint32LE(n: number): Struct {
     return this.write('uint32LE', n);
   }
 
   /** Convenience method - Calls struct.write(...) */
-  public uint32BE(n: string): Struct {
+  public uint32BE(n: number): Struct {
     return this.write('uint32BE', n);
   }
 
